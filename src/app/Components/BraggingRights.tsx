@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Line from "../assets/Line.svg";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Link from "next/link";
+import CelebLandingPage from "../Pages/CelebLandingPage";
 
 // class library
 const baseButtonClass = "py-2 px-6 text-lg font-semibold";
@@ -102,14 +103,14 @@ export default function BraggingRights() {
                     className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
                   />
                 </div>
-                <Link href="/">
+                
                   <button
                     onClick={handleJoinCollector}
                     className="flex justify-center items-center mb-4 gap-2 w-full shadow-lg bg-green-500 hover:bg-green-700 text-white text-md py-3 px-6 rounded-[40px]"
                   >
                     Join as a Collector
                   </button>
-                </Link>
+                
               </form>
             </div>
           )}
@@ -117,12 +118,12 @@ export default function BraggingRights() {
             <div className="text-gray-700 text-lg flex flex-col gap-7 mt-10 justify-center items-center">
               <p>Get paid to connect with your super-fans</p>
               <div className="bg-white w-full py-14 md:py-20 px-4 rounded-md">
-                <Link href="/join-as-a-celeb">
+                
                   <button className="flex justify-center items-center gap-2 w-full shadow-lg bg-white hover:bg-green-700 text-black hover:text-white text-md py-3 px-6 rounded-[40px]">
                     Join as a Celeb
                     <IoIosArrowRoundForward className="text-xl" />
                   </button>
-                </Link>
+            
               </div>
             </div>
           )}

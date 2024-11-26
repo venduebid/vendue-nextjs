@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect, useRef } from "react";
 import Vendue from "../assets/VENDUE.svg";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -31,9 +32,9 @@ export default function Header () {
   return (
     <div className="flex justify-center pb-3 items-center mx-auto my-auto">
       <div className="flex items-center justify-between bg-[#FFFFFF] px-4 py-3 w-full rounded-2xl shadow mt-4 md:w-1/2 relative">
-        <Link href="/">
+        
           <img src={Vendue} alt="vendue" />
-        </Link>
+        
         {/* Main Button with Overlay */}
         <div className="relative">
           <button

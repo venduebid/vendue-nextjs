@@ -60,12 +60,12 @@ export default function Categories() {
             </button>
           </Link>
 
-          <Link href="/join-as-a-celeb">
+          
             <button className="flex justify-center items-center gap-2 bg-green-500 hover:bg-green-700 text-white text-md py-3 px-6 rounded-[40px]">
               Join as a Celeb
               <IoIosArrowRoundForward className="text-2xl" />
             </button>
-          </Link>
+
         </div>
       </div>
     </div>
