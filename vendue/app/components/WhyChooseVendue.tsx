@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyChooseVendue () {
   return (
-    <div className="py-8 md:py-16">
+    <div className="py-8 md:py-16 px-14">
       <div className="container mx-auto text-center px-6">
         <h1 className="text-xl md:text-4xl font-inter font-bold text-gray-800 mb-4">
           Why Choose Vendue
@@ -10,7 +10,7 @@ export default function WhyChooseVendue () {
         <img src='/Line.svg' alt="Line" />
         {/* Responsive Grid of Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-          <div className="bg-white border rounded-lg shadow-md p-6">
+          <div className="bg-white border rounded-xl shadow-md p-6">
             <div className="bg-white border rounded-lg shadow-md p-2 md:p-8 mb-4">
               <h2 className="text-xl text-left font-bold text-gray-800 mb-2">
                 Collect items of value directly from celebrities anywhere in the

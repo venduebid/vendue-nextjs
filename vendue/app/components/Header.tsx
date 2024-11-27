@@ -30,7 +30,7 @@ export default function Header () {
 
   return (
     <div className="flex justify-center pb-3 items-center mx-auto my-auto">
-      <div className="flex items-center justify-between bg-[#FFFFFF] px-4 py-3 w-full rounded-2xl shadow mt-4 md:w-1/2 relative">
+      <div className="flex items-center justify-between bg-[#FFFFFF] px-4 py-3 w-full rounded-2xl shadow-sm mt-4 md:w-1/2 relative">
         
           <img src='/Vendue.svg' alt="vendue" />
         
@@ -38,7 +38,7 @@ export default function Header () {
         <div className="relative">
           <button
             onClick={() => setShowOverlay((prev) => !prev)}
-            className="flex-shrink-0 bg-[#00BA5C] border-4 drop-shadow-lg  bg-gradient-to-r from-green-700 to-green-800 text-white px-[32px] py-[10px] rounded-[40px]"
+            className="flex-shrink-0 bg-[#00BA5C] border-4 drop-shadow-lg  bg-gradient-to-r from-[#28BB71] to-[#177144] text-white px-[32px] py-[10px] rounded-[40px]"
           >
             <p className="text-sm">Join waitlist</p>
           </button>

@@ -15,7 +15,7 @@ export default function CelebHero () {
       <div className="container mx-auto text-center px-6">
         <div className="flex flex-col gap-8 justify-center items-center">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[27px] md:text-[45px] font-inter font-bold mt-6 p-2 text-center w-[500px] md:w-[800px]">
+            <h1 className="text-[27px] md:text-[45px] text-black font-inter font-bold mt-6 p-2 text-center w-[500px] md:w-[800px]">
               Get paid to connect with{" "}
             </h1>
             <span className="bg-[#00BA5C]/20 text-[#00BA5C] text-xl md:text-4xl font-inter font-bold text-center rounded-sm p-2 w-[300px] md:w-[500px]">
